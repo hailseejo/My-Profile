@@ -1,0 +1,208 @@
+.head1{
+  text-align: center;
+  color: darkslateblue;
+  background-color: plum;
+  padding: 100px 0;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  font-size: 40px;
+  box-shadow: 0 4px 12px purple;
+}
+body{
+  background-color: lavender;
+  
+}
+
+
+
+}
+.ys{
+  color: black;
+  background-color: lavender;
+}
+
+
+
+
+
+}
+
+
+
+
+}
+
+.box table {
+  margin: 0 auto;               
+  border-collapse: collapse;
+  text-align: left;             /* left align label/value inside cells */
+}
+
+/* cells */
+.box th, .box td {
+  padding: 8px 50px;            /* space between columns — change numbers to make them closer/further */
+  font-size: 22px;
+}
+
+/* label column style */
+.box th {
+  color: black;
+  font-weight: 700;
+  white-space: nowrap;          
+}
+
+
+.box td {
+  color: rebeccapurple;
+}
+
+
+.infos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;      
+  gap: 40px;                
+  margin-top: 30px;
+  margin-left: 170px;
+}
+
+/* Photo box */
+.photo img {
+  width: 200px;              
+  height: 200px;
+  border-radius: 15px;
+  border: 3px solid purple;
+  object-fit: cover;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+
+
+
+/* Academic box */
+
+
+
+
+
+.academics table {
+  
+  border-collapse: collapse;
+  text-align: left;
+
+}
+
+.academics th, .academics td {
+  padding: 16px 50px;
+  font-size: 22px;
+}
+
+.academics th {
+  color: black;
+  font-weight: 700;
+}
+
+.academics td {
+  color: rebeccapurple;
+}
+
+.box, .academics {
+  background-color: #f0e8ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(128, 0, 128, 0.2);
+  width: 900px;            
+  margin-top: 20px; 
+  margin-top: ;     
+  padding: 40px 40px;
+  color: rebeccapurple;
+  
+}
+
+.head2, .head3 {
+  text-align: center;
+  color: rebeccapurple;
+  text-decoration: underline;
+  text-decoration-color: plum;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.photobox {
+  background-color: #f0e8ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(128, 0, 128, 0.2);
+  width: 500px;
+  text-align: center;
+  padding: 25px;
+  color: rebeccapurple;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 0px;
+  margin-top: 50px;
+  
+}
+
+.photobox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(128, 0, 128, 0.3);
+}
+
+.photobox img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  border: 3px solid purple;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+/* --- PHOTO BOX HEADING --- */
+.head4 {
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: black;
+  margin-bottom: 15px;
+  font-weight: 1200;
+}
+
+/* --- CONTACT BUTTONS --- */
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rebeccapurple;
+  color: lavender;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 150px;
+  margin: 0 10px;
+}
+
+.contact-btn:hover {
+  background-color: ;
+  transform: scale(1.05);
+}
+.info-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 0;
+
+}
+
+
+
+
+
